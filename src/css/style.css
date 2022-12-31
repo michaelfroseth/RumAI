@@ -439,20 +439,6 @@ a.active {
 /* Responsive Styles */
 
 @media (max-width: 768px) {
-  .menu {
-    position: fixed;
-    top: 0;
-    right: -600px;
-    /* Position the menu off-screen */
-    height: 100%;
-    width: 100%;
-    background-color: #3C1568;
-    color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 10001;
-    transition: right 0.5s ease;
-  }
-
   .hamburger {
     background: #3C1568;
     border-radius: 50%;
