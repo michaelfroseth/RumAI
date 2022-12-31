@@ -218,7 +218,7 @@ button {
 }
 
 .icon-box:hover {
-  background-color: rgba(60, 21, 104, 0.8);
+  background-color: rgba(60, 21, 104, 0.9);
   box-shadow: rgba(60, 21, 104, 0.25) 0px 50px 100px -20px, rgba(60, 21, 104, 0.3) 0px 30px 60px -30px, rgba(60, 21, 104, 0.35) 0px -2px 6px 0px inset;
   transform: translateY(-20px);
   border: 1px solid rgba(255, 255, 255, 0.1);
