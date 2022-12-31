@@ -25,7 +25,7 @@ const Header = () => {
           <h2>
             Extra Space.
             <br />
-            Without The Crappy Lease.
+            Without The Lease.
           </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -78,7 +78,7 @@ const Header = () => {
           <h1>
             Extra Space.
             <br />
-            Without the crappy lease.
+            Without the lease.
           </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
