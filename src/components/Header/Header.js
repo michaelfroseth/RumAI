@@ -12,7 +12,7 @@ const Header = () => {
         </button>
 
         <div className={`menu${menuOpen ? " open" : ""}`}>
-          <button className="close-button">
+          <button className="close-button" onClick={() => setMenuOpen(false)}>
             <FontAwesomeIcon icon={faTimes} />
           </button>
           <img
