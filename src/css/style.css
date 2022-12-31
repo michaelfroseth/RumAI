@@ -496,6 +496,11 @@ a.active {
     width: 100%;
     padding-left: 0%;
   }
+  .menu-links {
+    display: flex;
+    justify-content: center;
+  }
+  
 }
 
 @media (max-width: 1024px) {
