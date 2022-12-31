@@ -40,16 +40,17 @@ const Header = () => {
             sed mauris ut orci lacinia sodales quis id elit. Aenean.
           </p>
           <a href="./index.html" className="active">
-            <i className="menu-icon fas fa-home"></i> Home
+            <FontAwesomeIcon icon={faHome} /> Home
           </a>
           <a href="#">
-            <i className="menu-icon fas fa-building"></i> How To Get Involved
+            <FontAwesomeIcon icon={faBuilding} /> How To Get Involved
           </a>
           <a href="#">
-            <i className="menu-icon fas fa-file-pdf"></i> Download Pitch Deck
+            <FontAwesomeIcon icon={faFile} />
+            Download Pitch Deck
           </a>
           <a href="#">
-            <i className="menu-icon fas fa-address-card"></i> Contact Us
+            <FontAwesomeIcon icon={faAddressCard} /> Contact Us
           </a>
           <div className="social-icons">
             <ul>
