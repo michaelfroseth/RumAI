@@ -358,11 +358,12 @@ button {
 
 /* Menu Styles */
 
+/* Menu Styles */
+
 .menu {
   position: fixed;
   top: 0;
-  right: -300px;
-  /* Position the menu off-screen */
+  right: -300px; /* Position the menu off-screen */
   height: 100%;
   width: 300px;
   background-color: #3C1568;
@@ -374,7 +375,7 @@ button {
 }
 
 .menu.open {
-  transform: translateX(0);
+  right: 0; /* Slide the menu into view */
 }
 
 .menu p {
@@ -394,22 +395,9 @@ button {
   font-size: 16px;
 }
 
-.menu a:first-child {
-  margin-left: -15px;
-}
-
-.menu a:nth-child(4) {
-  margin-left: -5px;
-}
-
 .menu a:hover {
   background: #740E7A;
   color: #fff;
-}
-
-.menu.menu-open {
-  right: 0;
-  /* Slide the menu into view */
 }
 
 .menu-icon {
@@ -424,21 +412,10 @@ button {
   transition: ease-in-out opacity 0.2s;
 }
 
-.menu a {
-  margin-left: 0;
-  transition: margin-left 0.3s;
-  margin-left: -30px;
-
-}
-
-.menu a:hover {
-  margin-left: 0px;
-}
-
-
 a.active {
   font-weight: bold;
 }
+
 
 
 /* Responsive Styles */
