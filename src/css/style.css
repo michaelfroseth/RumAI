@@ -404,18 +404,6 @@ button {
   color: #fff;
 }
 
-.menu-icon {
-  opacity: 0;
-  max-width: 12px;
-  padding-right: 20px;
-}
-
-.menu a:hover .menu-icon {
-  opacity: 1;
-  transform: translateX(10px);
-  transition: ease-in-out opacity 0.2s;
-}
-
 a.active {
   font-weight: bold;
 }
