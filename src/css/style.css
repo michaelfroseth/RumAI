@@ -409,6 +409,10 @@ a.active {
 }
 
 
+.menu a i {
+  padding-right:15px;
+}
+
 
 /* Responsive Styles */
 
