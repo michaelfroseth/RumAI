@@ -463,6 +463,7 @@ a.active {
 @media (max-width: 768px) {
   .menu {
     width:100vw;
+    height:100%;
   }
   .hamburger {
     background: #3C1568;
