@@ -1,5 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faTimes,
+  faHome,
+  faBuilding,
+  faFile,
+  faAddressCard,
+} from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 
 const Header = () => {
