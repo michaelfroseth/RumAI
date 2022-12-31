@@ -17,13 +17,11 @@ body {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-items: left; /* Align icons horizontally to the center of the grid cells */
-  align-items: center; /* Align icons vertically to the center of the grid cells */
-  margin-left:-15px;
 }
 
-.social-icons i {
-  font-size:22px;
-  padding-right:0px;
+.social-icons ul {
+  margin:0;
+  padding:20px;
 }
 
 .social-icons li {
@@ -31,13 +29,18 @@ body {
   float:left;
 }
 
-.social-icons a {
+.social-icons li a {
   background:none!important;
   background-color:none;
   opacity:0.8;
+  padding:0;
+  margin:0;
+  padding-right:15px;
+  color:#fff;
+  font-size:18px;
 }
 
-.social-icons a:hover {
+.social-icons li a:hover {
   opacity:1;
   transform: translateX(0px);
 }
@@ -391,17 +394,34 @@ button {
   padding: 0 15px 0 15px;
 }
 
-.menu a {
+.menu > a {
   display: block;
   padding: 20px;
   color: #fff;
   text-decoration: none;
   font-size: 16px;
+  /* Add transition to the margin-left property */
+  transition: padding-left 0.3s;
+  /* Indent the link by 30px */
 }
 
-.menu a:hover {
-  background: #740E7A;
-  color: #fff;
+.menu > a:hover {
+  /* On hover, reset the indentation of the link */
+  padding-left: 50px;
+  background-color:#640D76;
+  font-weight:bold;
+}
+
+.menu a .fa-icon {
+  /* Hide the font awesome icon by default */
+  opacity: 0;
+  /* Add transition to the opacity property */
+  transition: ease-in-out opacity 0.2s;
+}
+
+.menu a:hover .fa-icon {
+  /* On hover, show the font awesome icon */
+  opacity: 1;
 }
 
 a.active {
@@ -409,7 +429,7 @@ a.active {
 }
 
 
-.menu a i {
+.menu a svg {
   padding-right:15px;
 }
 

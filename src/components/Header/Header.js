@@ -7,6 +7,11 @@ import {
   faFile,
   faAddressCard,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import React, { useState } from "react";
 
 const Header = () => {
@@ -39,7 +44,7 @@ const Header = () => {
             pharetra sagittis magna in venenatis. Duis vel sodales massa. Cras
             sed mauris ut orci lacinia sodales quis id elit. Aenean.
           </p>
-          <a href="./index.html" className="active">
+          <a href="./index.html">
             <FontAwesomeIcon icon={faHome} /> Home
           </a>
           <a href="#">
@@ -56,17 +61,17 @@ const Header = () => {
             <ul>
               <li>
                 <a href="#">
-                  <i className="fab fa-facebook"></i>
+                  <FontAwesomeIcon icon={faFacebook} />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i className="fab fa-instagram"></i>
+                  <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i className="fab fa-linkedin"></i>
+                  <FontAwesomeIcon icon={faLinkedin} />
                 </a>
               </li>
             </ul>
