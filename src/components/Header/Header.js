@@ -57,25 +57,6 @@ const Header = () => {
           <a href="#">
             <FontAwesomeIcon icon={faAddressCard} /> Contact Us
           </a>
-          <div className="social-icons">
-            <ul>
-              <li>
-                <a href="#">
-                  <FontAwesomeIcon icon={faFacebook} />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <header className="header">

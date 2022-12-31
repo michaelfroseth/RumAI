@@ -16,7 +16,9 @@ body {
 .social-icons {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  justify-items: left; /* Align icons horizontally to the center of the grid cells */
+  justify-items: center; /* Align icons horizontally to the center of the grid cells */
+  position:absolute;
+  bottom:0;
 }
 
 .social-icons ul {
