@@ -214,12 +214,14 @@ button {
   border-radius: 5px;
   padding: 50px;
   transition: ease-in-out 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.01);
 }
 
 .icon-box:hover {
   background-color: rgba(60, 21, 104, 0.8);
   box-shadow: rgba(60, 21, 104, 0.25) 0px 50px 100px -20px, rgba(60, 21, 104, 0.3) 0px 30px 60px -30px, rgba(60, 21, 104, 0.35) 0px -2px 6px 0px inset;
   transform: translateY(-20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .icon-box img {
@@ -463,7 +465,6 @@ a.active {
 @media (max-width: 768px) {
   .menu {
     width:100vw;
-    height:100%;
   }
   .hamburger {
     background: #3C1568;
