@@ -40,7 +40,10 @@ const Header = () => {
             sed mauris ut orci lacinia sodales quis id elit. Aenean.
           </p>
           <a href="./index.html" className="active">
-            <FontAwesomeIcon icon={faHome} /> Home
+            <i>
+              <FontAwesomeIcon icon={faHome} />
+            </i>{" "}
+            Home
           </a>
           <a href="#">
             <FontAwesomeIcon icon={faBuilding} /> How To Get Involved
