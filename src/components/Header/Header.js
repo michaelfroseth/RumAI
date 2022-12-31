@@ -13,9 +13,12 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import React, { useState } from "react";
+import ContactForm from "../Contact";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showContactForm, setShowContactForm] = useState(false);
+
   return (
     <div className="container">
       <div className="grid-container">
@@ -54,9 +57,14 @@ const Header = () => {
             <FontAwesomeIcon icon={faFile} />
             Download Pitch Deck
           </a>
-          <a href="#">
+          <a href="#" onClick={() => setShowContactForm(true)}>
             <FontAwesomeIcon icon={faAddressCard} /> Contact Us
           </a>
+          {showContactForm && (
+            <div className="contact">
+              <ContactForm />
+            </div>
+          )}
         </div>
 
         <header className="header">

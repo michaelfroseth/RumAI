@@ -8,6 +8,28 @@ body {
   padding: 0;
 }
 
+/* Contact Form */
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding:20px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  padding:15px;
+  border-radius:5px;
+}
+
+.contact-form button[type='submit'] {
+  grid-column: 1 / -1;
+}
+
+
 .parallax {
   background-attachment: scroll;
   background-size: cover;
