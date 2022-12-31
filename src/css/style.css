@@ -439,6 +439,9 @@ a.active {
 /* Responsive Styles */
 
 @media (max-width: 768px) {
+  .menu {
+    width:100vw;
+  }
   .hamburger {
     background: #3C1568;
     border-radius: 50%;
