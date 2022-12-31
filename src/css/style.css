@@ -363,19 +363,23 @@ button {
 .menu {
   position: fixed;
   top: 0;
-  right: -300px; /* Position the menu off-screen */
+  right: 0;
+  /* Position the menu on-screen */
   height: 100%;
   width: 300px;
   background-color: #3C1568;
   color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 10001;
-  transition: right 0.5s ease;
+  transition: transform 0.5s ease;
+  transform: translateX(100%);
+  /* Initially hide the menu off-screen */
   overflow: hidden;
 }
 
 .menu.open {
-  right: 0; /* Slide the menu into view */
+  transform: translateX(0);
+  /* Slide the menu into view */
 }
 
 .menu p {
