@@ -1,23 +1,6 @@
 import React, { useEffect } from "react";
 
 function IntroSection() {
-  useEffect(() => {
-    const introSection = document.querySelector(".intro-section");
-
-    const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
-        const handleScroll = () => {
-          const scrollY = window.scrollY;
-          introSection.style.backgroundPosition = `50% ${scrollY * -0.1}px`;
-        };
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-      }
-    });
-
-    observer.observe(introSection);
-  }, []);
-
   return (
     <div className="intro-section">
       <div className="container">
