@@ -12,7 +12,7 @@ function Footer() {
               height="268px"
               alt="RüMLENDR"
               className="featured-img"
-            />
+            />{" "}
           </div>
           <div className="column">
             <ul className="menu-links">
