@@ -29,11 +29,19 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    function updateParallaxBg() {
+      document.querySelector(
+        ".parallax_bg"
+      ).style.backgroundPosition = `center ${scrollY * 0.5}px`;
+      requestAnimationFrame(updateParallaxBg);
+    }
+
+    updateParallaxBg();
+  }, [scrollY]);
+
   return (
-    <div
-      className="parallax_bg"
-      style={{ backgroundPosition: `center ${scrollY * 0.5}px` }}
-    >
+    <div className="parallax_bg">
       <div className="container">
         <div className="grid-container">
           <img
