@@ -22,10 +22,12 @@ const Header = () => {
   return (
     <div className="container">
       <div className="grid-container">
-        <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-          <FontAwesomeIcon icon={faBars} />
-        </button>
-
+        <img
+          src="assets/menu-icon.svg"
+          className="hamburger"
+          alt="Menu"
+          onClick={() => setMenuOpen(!menuOpen)}
+        />
         <div className={`menu${menuOpen ? " open" : ""}`}>
           <button className="close-button" onClick={() => setMenuOpen(false)}>
             <FontAwesomeIcon icon={faTimes} />
