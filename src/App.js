@@ -10,7 +10,7 @@ import AnimatedCursor from "react-animated-cursor";
 function App() {
   return (
     <div classNameName="App">
-      <AnimatedCursor innerSize={25} outerSize={10} color="121, 17, 127" />
+      <AnimatedCursor innerSize={15} outerSize={10} color="127, 17, 224" />
       <Header />
       <IntroSection />
       <Footer />
