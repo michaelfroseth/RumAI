@@ -33,7 +33,7 @@ const Header = () => {
     function updateParallaxBg() {
       document.querySelector(
         ".parallax_bg"
-      ).style.backgroundPosition = `center ${scrollY * 0.5}px`;
+      ).style.backgroundPosition = `center ${scrollY * 0.8}px`;
       requestAnimationFrame(updateParallaxBg);
     }
 
