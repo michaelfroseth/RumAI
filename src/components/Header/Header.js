@@ -14,6 +14,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import React, { useState, useEffect } from "react";
 import ContactForm from "../Contact";
+import throttle from "lodash.throttle";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,9 +22,9 @@ const Header = () => {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    function handleScroll() {
+    const handleScroll = throttle(() => {
       setScrollY(window.pageYOffset);
-    }
+    }, 100);
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -31,9 +32,9 @@ const Header = () => {
 
   useEffect(() => {
     function updateParallaxBg() {
-      document.querySelector(
-        ".parallax_bg"
-      ).style.backgroundPosition = `center ${scrollY * 0.8}px`;
+      document.querySelector(".parallax_bg").style.transform = `translateY(${
+        scrollY * 0.5
+      }px)`;
       requestAnimationFrame(updateParallaxBg);
     }
 
