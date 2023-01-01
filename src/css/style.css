@@ -1,11 +1,14 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax_bg {
   background: linear-gradient(to right, #ffa69e, #f8c3df);
   background: #0f1550 url(../assets/bg-lg.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
-  padding: 0;
 }
 
 /* Contact Form */
