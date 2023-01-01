@@ -23,7 +23,7 @@ const Header = () => {
     <div className="container">
       <div className="grid-container">
         <img
-          src="assets/menu-icon.svg"
+          src="assets/menu.svg"
           className="hamburger"
           alt="Menu"
           onClick={() => setMenuOpen(!menuOpen)}
