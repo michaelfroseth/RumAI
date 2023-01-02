@@ -113,7 +113,9 @@ const Header = () => {
               massa. Cras sed mauris ut orci lacinia sodales quis id elit.
               Aenean.
             </p>
-            <button>Learn More</button>
+            <button class="outline-btn">
+              Learn How We're Helping Independent Creatives
+            </button>
           </header>
           <section className="section">
             <div className="column">
