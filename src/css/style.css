@@ -311,6 +311,7 @@ button {
   background-size: cover;
   background-blend-mode: multiply;
   padding: 75px 0 200px 0;
+  text-align:left;
 }
 
 .intro-section h2 {
@@ -372,7 +373,7 @@ button {
   cursor: pointer;
   font-size: 42px;
   color: #fff;
-  z-index: 10000;
+  z-index: 10;
 }
 
 
@@ -405,6 +406,8 @@ button {
   transform: translateX(100%);
   /* Initially hide the menu off-screen */
   overflow: hidden;
+  text-align:left;
+  z-index:99;
 }
 
 .menu.open {
