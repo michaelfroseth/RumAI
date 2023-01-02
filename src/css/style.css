@@ -16,7 +16,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
-  padding:20px;
+  padding: 20px;
 }
 
 .contact-form label,
@@ -24,8 +24,8 @@ body {
 .contact-form textarea {
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: transparent;
-  padding:15px;
-  border-radius:5px;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .contact-form button[type='submit'] {
@@ -41,34 +41,35 @@ body {
 .social-icons {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  justify-items: center; /* Align icons horizontally to the center of the grid cells */
-  position:absolute;
-  bottom:0;
+  justify-items: center;
+  /* Align icons horizontally to the center of the grid cells */
+  position: absolute;
+  bottom: 0;
 }
 
 .social-icons ul {
-  margin:0;
-  padding:20px;
+  margin: 0;
+  padding: 20px;
 }
 
 .social-icons li {
-  list-style-type:none;
-  float:left;
+  list-style-type: none;
+  float: left;
 }
 
 .social-icons li a {
-  background:none!important;
-  background-color:none;
-  opacity:0.8;
-  padding:0;
-  margin:0;
-  padding-right:15px;
-  color:#fff;
-  font-size:18px;
+  background: none !important;
+  background-color: none;
+  opacity: 0.8;
+  padding: 0;
+  margin: 0;
+  padding-right: 15px;
+  color: #fff;
+  font-size: 18px;
 }
 
 .social-icons li a:hover {
-  opacity:1;
+  opacity: 1;
   transform: translateX(0px);
 }
 
@@ -128,7 +129,7 @@ body {
 }
 
 .footer .menu-links {
-  margin-top:-25%;
+  margin-top: -25%;
 }
 
 .footer a {
@@ -368,7 +369,6 @@ button {
   right: 20px;
   background: transparent;
   border: none;
-  outline: #640D76;
   cursor: pointer;
   font-size: 42px;
   color: #fff;
@@ -387,8 +387,6 @@ button {
   font-size: 24px;
   color: #fff;
 }
-
-/* Menu Styles */
 
 /* Menu Styles */
 
@@ -423,7 +421,7 @@ button {
   padding: 0 15px 0 15px;
 }
 
-.menu > a {
+.menu>a {
   display: block;
   padding: 20px;
   color: #fff;
@@ -434,11 +432,11 @@ button {
   /* Indent the link by 30px */
 }
 
-.menu > a:hover {
+.menu>a:hover {
   /* On hover, reset the indentation of the link */
   padding-left: 50px;
-  background-color:#640D76;
-  font-weight:bold;
+  background-color: #640D76;
+  font-weight: bold;
 }
 
 .menu a .fa-icon {
@@ -459,7 +457,7 @@ a.active {
 
 
 .menu a svg {
-  padding-right:15px;
+  padding-right: 15px;
 }
 
 
@@ -467,11 +465,7 @@ a.active {
 
 @media (max-width: 768px) {
   .menu {
-    width:100vw;
-  }
-  .hamburger {
-    background: #3C1568;
-    border-radius: 50%;
+    width: 100vw;
   }
 
   .header h1 {
@@ -523,11 +517,12 @@ a.active {
     width: 100%;
     padding-left: 0%;
   }
+
   .menu-links {
     display: flex;
     justify-content: center;
   }
-  
+
 }
 
 @media (max-width: 1024px) {
