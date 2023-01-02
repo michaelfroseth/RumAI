@@ -191,7 +191,7 @@ button {
 
 .outline-btn {
   font-family:inherit;
-  background:rgba(0, 0, 0, 0.2);
+  background: rgba(60, 21, 104, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius:50px;
   padding:20px;
@@ -201,9 +201,8 @@ button {
 }
 
 .outline-btn:hover {
-  transition:ease-in-out;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background:rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(60, 21, 104, 0.8);
+  background:rgba(60, 21, 104, 0.8);
 }
 
 /* 3 Column Icon Box Section */
