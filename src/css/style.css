@@ -469,6 +469,7 @@ a.active {
 @media (max-width: 768px) {
   .menu {
     width: 100vw;
+    padding-left:15px;
   }
 
   .header h1 {
