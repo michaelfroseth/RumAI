@@ -67,10 +67,9 @@ const Header = () => {
               Without The Lease.
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse pharetra sagittis magna in venenatis. Duis vel sodales
-              massa. Cras sed mauris ut orci lacinia sodales quis id elit.
-              Aenean.
+              Our mission is to help content creators and producers of things
+              and services find the perfect space to bring their ideas to life
+              without the stress of a long-term and invasive leasing process.
             </p>
             <a href="./index.html">
               <FontAwesomeIcon icon={faHome} /> Home
@@ -108,10 +107,9 @@ const Header = () => {
               Without the lease.
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse pharetra sagittis magna in venenatis. Duis vel sodales
-              massa. Cras sed mauris ut orci lacinia sodales quis id elit.
-              Aenean.
+              Our mission is to help content creators and producers of things
+              and services find the perfect space to bring their ideas to life
+              without the stress of a long-term and invasive leasing process.
             </p>
             <button class="outline-btn">
               Learn How We're Helping Independent Creatives
@@ -123,8 +121,8 @@ const Header = () => {
                 <img src="assets/icon-1.svg" alt="Icon 1" />
                 <h2>The Perfect Space</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                  at dui ornare, euismod est at, facilisis elit.
+                  RüMLENDR has an assortment of different spaces to fit the
+                  needs of business owners for all types of industries.
                 </p>
               </div>
             </div>
@@ -133,8 +131,8 @@ const Header = () => {
                 <img src="assets/icon-2.svg" alt="Icon 2" />
                 <h2>Bridge To Growth</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                  at dui ornare, euismod est at, facilisis elit.
+                  We know it’s tough to do it on your own. We strive to create a
+                  community of innovators & collaborators.
                 </p>
               </div>
             </div>
@@ -143,8 +141,8 @@ const Header = () => {
                 <img src="assets/icon-3.svg" alt="Icon 3" />
                 <h2>Nationwide Network</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                  at dui ornare, euismod est at, facilisis elit.
+                  RüMLENDR is building a nationwide network to connect
+                  entrepreneurs with property owners to help both succeed.
                 </p>
               </div>
             </div>
