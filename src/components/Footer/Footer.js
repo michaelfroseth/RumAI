@@ -23,10 +23,7 @@ function Footer() {
                 <a href="#">How To Get Involved</a>
               </li>
               <li>
-                <a href="#">Download Pitch Deck</a>
-              </li>
-              <li>
-                <a href="#">Contact Us</a>
+                <a href="mailto:js@jermandaresearch.com">Contact Us</a>
               </li>
             </ul>
           </div>

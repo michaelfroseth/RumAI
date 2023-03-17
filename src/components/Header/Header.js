@@ -74,10 +74,10 @@ const Header = () => {
             <a href="./index.html">
               <FontAwesomeIcon icon={faHome} /> Home
             </a>
-            <a href="#">
-              <FontAwesomeIcon icon={faBuilding} /> How To Get Involved
-            </a>
-            <a href="#">
+            <a
+              href="https://docs.google.com/presentation/d/1GkjI3lNPRUUyK7WSuJjgCCxGI1TF2OAx/edit?usp=share_link&ouid=105990486005615465173&rtpof=true&sd=true"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faFile} />
               Download Pitch Deck
             </a>
@@ -111,9 +111,14 @@ const Header = () => {
               and services find the perfect space to bring their ideas to life
               without the stress of a long-term and invasive leasing process.
             </p>
-            <button class="outline-btn">
-              Learn How We're Helping Independent Creatives
-            </button>
+            <a
+              href="https://docs.google.com/presentation/d/1GkjI3lNPRUUyK7WSuJjgCCxGI1TF2OAx/edit?usp=share_link&ouid=105990486005615465173&rtpof=true&sd=true"
+              target="_blank"
+            >
+              <button class="outline-btn">
+                Learn How We're Helping Independent Creatives
+              </button>
+            </a>
           </header>
           <section className="section">
             <div className="column">
