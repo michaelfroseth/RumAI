@@ -17,7 +17,6 @@ const Modal = ({ show, onClose }) => {
           </a>{" "}
           and learn more about Rumlender.
         </p>
-        <button onClick={onClose}>Close</button>
       </div>
     </div>
   );
