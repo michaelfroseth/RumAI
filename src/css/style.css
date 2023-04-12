@@ -5,6 +5,7 @@ body {
 }
 .download-btn {
   color:#640D76!important;
+  text-decoration:underline!important;
 }
 .menu-link-button {
   background: none;
