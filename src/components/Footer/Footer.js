@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "../Modal";
 
 function Footer() {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleButtonClick = (event) => {
+    event.preventDefault(); // Prevent the default behavior of the <a> tag
+    setShowModal(true);
+  };
+
   return (
     <footer className="footer">
       <div className="container">
@@ -12,7 +20,7 @@ function Footer() {
               height="268px"
               alt="RüMLENDR"
               className="featured-img"
-            />{" "}
+            />
           </div>
           <div className="column">
             <ul className="menu-links">
@@ -20,7 +28,9 @@ function Footer() {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">How To Get Involved</a>
+                <a href="#" onClick={handleButtonClick}>
+                  How To Get Involved
+                </a>
               </li>
               <li>
                 <a href="mailto:js@jermandaresearch.com">Contact Us</a>
@@ -29,6 +39,9 @@ function Footer() {
           </div>
         </div>
       </div>
+      {showModal && (
+        <Modal show={showModal} onClose={() => setShowModal(false)} />
+      )}
     </footer>
   );
 }
